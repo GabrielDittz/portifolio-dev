@@ -1,10 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
+    /* Colors */
     --color-red: #e3646e;
     --color-purple: #bb72e9;
     --color-blue: #3996db;
@@ -16,5 +17,19 @@
     --gray-300: #292c34;
     --gray-400: #878ea1;
     --gray-500: #c0c4ce;
-    --gray-600: #e2e4e9;        
+    --gray-600: #e2e4e9;
+
+    /* Fonts */
+    --font-asap: "Asap", sans-serif;
+    --font-maven: "Maven Pro", sans-serif;
+    --font-inconsolata: "Inconsolata", monospace;
+
+    --title-lg: 700 56px/120% var(--font-asap);
+    --title-md: 700 24px/120% var(--font-asap);
+    --title-sm: 700 16px/120% var(--font-asap);
+
+    --subtitle: 400 20px/120% var(--font-inconsolata);
+
+    --text-md: 400 16px/140% var(--font-maven);
+    --text-sm: 400 14px/140% var(--font-maven);
 }
