@@ -33,3 +33,18 @@
     --text-md: 400 16px/140% var(--font-maven);
     --text-sm: 400 14px/140% var(--font-maven);
 }
+
+span{
+    font: var(--subtitle);
+    color: var(--gray-500);
+}    
+
+h1{
+    font: var(--title-lg);
+    color: var(--gray-600);
+}
+
+p{
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
