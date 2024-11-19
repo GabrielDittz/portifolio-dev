@@ -44,6 +44,16 @@ h1{
     color: var(--gray-600);
 }
 
+h2{
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+h3{
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
 p{
     font: var(--text-sm);
     color: var(--gray-400);

@@ -2,6 +2,18 @@
     display: flex;
 }
 
+.grid{
+    display: grid;
+}
+
+.grid-cols-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-24{
+    gap: 24px;
+}
+
 .text-color-red{
     color: var(--color-red);
 }
